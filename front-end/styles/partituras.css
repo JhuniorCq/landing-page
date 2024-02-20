@@ -1,5 +1,5 @@
 body {
-    background-image: url(../assets/img/fondo-partituras.jpg);
+    background-image: url(../assets/img/fondos/fondo-partituras.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,4 +12,26 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.contenedor-partituras {
+    width: 80%;
+    padding: 40px;
+    box-shadow: 5px 5px 10px rgba(250, 250, 250, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(0.4rem);
+}
+
+.contenedor-titulo {
+    margin-bottom: 20px;
+}
+
+.titulo {
+    color: white;
+    font-weight: bold;
 }

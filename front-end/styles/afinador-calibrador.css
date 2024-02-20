@@ -1,5 +1,5 @@
 body {
-    background-image: url(../assets/img/fondo-afinador-calibrador.jpg);
+    background-image: url(../assets/img/fondos/fondo-afinador-calibrador.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,4 +12,129 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.contenedor-afinador {
+    width: 80%;
+    padding: 40px;
+    box-shadow: 5px 5px 10px rgba(250, 250, 250, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(0.4rem);
+}
+
+.contenedor-titulo {
+    margin-bottom: 30px;
+    /* position: relative; */
+}
+
+.titulo {
+    color: white;
+    font-weight: bold;
+}
+
+.contenedor-select {
+    border: 1px solid yellow;
+    width: 30%;
+    /* margin-bottom: 1px; */
+}
+
+.contenedor-opcion-seleccionada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#select-instrumento {
+    outline: none;
+}
+
+.etiqueta {
+    margin-bottom: 10px;
+}
+
+.contenedor-cabezal {
+    /* border: 1px solid red; */
+}
+
+.contenedor-guitarra {
+    display: flex;
+    /* position: relative; */
+    /* background-color: red; */
+}
+
+.cabezal-guitarra {
+    width: 250px;
+}
+
+.contenedor-animacion {
+    width: 30%;
+    background-color: rgba(250, 250, 250, 0.1);
+    backdrop-filter: blur(0.4rem);
+    height: 160px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.contenedor-cuadricula {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadricula {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(200, 186, 186);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-botones {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+    /* border: 1px solid blue; */
+}
+
+.boton {
+    cursor: pointer;
+    margin-bottom: 40px;
+    padding: 15px;
+    background-color: rgba(250, 250, 250, 0.1);
+    backdrop-filter: blur(0.4rem);
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.boton:first-child {
+    margin-top: 40px;
+}
+
+.boton:hover {
+    scale: 1.2;
 }
