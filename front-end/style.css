@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Luxurious+Roman&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Glass Antiqua", cursive;
+    font-weight: 400;
+    font-style: normal; 
 }
 
 .header {
     width: 100%;
-    height: 60px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    height: 80px;
+    box-shadow: 5px 3px 10px rgba(255, 255, 255, 0.2);
     display: flex;
-    /* justify-content: center; */
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.8rem);
 }
 
 .funcionalidades {
@@ -21,11 +26,24 @@
     margin-bottom: 0;
 }
 
+.logo {
+    width: 60px;
+    margin-left: 20px;
+}
+
 .funcion {
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 25px;
+    background-color: transparent;
 }
 
 .funcion a {
     text-decoration: none;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    font-size: 1.1rem;
+}
+
+.funcion a:hover {
+    font-size: 1.2rem;
 }

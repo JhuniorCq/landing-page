@@ -1,15 +1,16 @@
-main {
-    width: 100%;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+body {
+    background-image: url(../assets/img/fondo-inventario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+
 .contenedor {
-    max-width: 80%;
-    border: 1px solid brown;
+    width: 100%;
+    min-height: 90vh;
+    /* border: 1px solid brown; */
     display: flex;
     flex-direction: column;
     align-items: center;
