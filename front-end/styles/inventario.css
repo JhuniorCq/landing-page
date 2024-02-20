@@ -10,28 +10,69 @@ body {
 .contenedor {
     width: 100%;
     min-height: 90vh;
-    /* border: 1px solid brown; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.contenedor-inventario {
+    width: 80%;
+    padding: 40px;
+    box-shadow: 5px 5px 10px rgba(250, 250, 250, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(0.4rem);
+}
+
+.contenedor-titulo {
+    margin-bottom: 20px;
+}
+
 .titulo {
-    text-align: center;
+    color: white;
+    font-weight: bold;
+    /* text-align: center; */
 }
 
 .contenedor-productos {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .contenedor-producto {
-    border: 1px solid blue;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(250, 250, 250, 0.6);
+    color: black;
+    padding: 20px;
+    margin: 8px;
+    /* border: 1px solid blue; */
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
+    align-items: center;
+}
+
+.btn-escoger {
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 6px 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-escoger:hover {
+    scale: 1.1;
+    font-weight: normal;
+    background-color: black;
+    color: white;
 }
