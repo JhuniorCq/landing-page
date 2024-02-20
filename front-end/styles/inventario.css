@@ -56,6 +56,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 200px;
+}
+
+.producto {
+    width: 150px;
+    height: 200px;
 }
 
 .btn-escoger {
