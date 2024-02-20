@@ -42,8 +42,10 @@
     color: white;
     transition: all 0.4s ease-in-out;
     font-size: 1.1rem;
+    font-weight: normal;
 }
 
 .funcion a:hover {
     font-size: 1.2rem;
+    font-weight: bold
 }

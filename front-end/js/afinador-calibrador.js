@@ -1,32 +1,36 @@
 const contenedorAfinador = document.querySelector('.contenedor-afinador');
 const selectInstrumento = document.getElementById('select-instrumento');
-console.log(contenedorAfinador)
-// const crearCuadrado = (contenedorCuadricula) => {
-//     for(let i=0; i<8; i++) {
-//         for(let j=0; j<19; j++) {
-//             const divCuadrado = document.createElement('div');
-//             divCuadrado.classList.add('cuadricula');
-//             contenedorCuadricula.append(divCuadrado);
-//         }
-//     }
-// }
+
+const crearCuadrado = (contenedorCuadricula) => {
+    for(let i=0; i<8; i++) {
+        for(let j=0; j<21; j++) {
+            const divCuadrado = document.createElement('div');
+            divCuadrado.classList.add('cuadricula');
+            contenedorCuadricula.append(divCuadrado);
+        }
+    }
+}
 
 const mostrarAfinadorInstrumento = () => {
-    // const contenedorOpcionSeleccionada = document.querySelector('.contenedor-opcion-seleccionada');
+    const contenedorOpcionSeleccionada = document.querySelector('.contenedor-opcion-seleccionada');
+    console.log(contenedorOpcionSeleccionada)
     const opcionSeleccionada = selectInstrumento.value;
     console.log(opcionSeleccionada);
 
+    contenedorOpcionSeleccionada.innerText = '';
+
     if(opcionSeleccionada === 'guitarra') {
         const div = document.createElement('div');
-        div.classList.add('contenedor-opcion-seleccionada');
+        div.classList.add('contenedor-guitarra');
         div.innerHTML = `
             <div class="contenedor-animacion">
                 <div class="contenedor-cuadricula">
+                    <div class="cuadricula"></div>
                 </div>
 
             </div>
 
-            <div class="contenedor-guitarra">
+            <div class="contenedor-guitarra2">
                 <div class="contenedor-botones">
                     <button class="boton">D</button>
                     <button class="boton">A</button>
@@ -45,20 +49,9 @@ const mostrarAfinadorInstrumento = () => {
             </div>
         `;
 
-
-        // const contenedorCuadricula = document.querySelector('.contenedor-cuadricula');
-        // // crearCuadrado(contenedorCuadricula);
-        // console.log(contenedorCuadricula)
-        // for(let i=0; i<8; i++) {
-        //     for(let j=0; j<19; j++) {
-        //         const divCuadrado = document.createElement('div');
-        //         divCuadrado.classList.add('cuadricula');
-        //         contenedorCuadricula.append(divCuadrado);
-        //     }
-        // }
-        
-        contenedorAfinador.append(div);
-
+        contenedorOpcionSeleccionada.append(div);
+        const contenedorCuadricula = document.querySelector('.contenedor-cuadricula');
+        crearCuadrado(contenedorCuadricula);
     }
 }
 
