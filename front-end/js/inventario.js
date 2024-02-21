@@ -34,6 +34,27 @@ const agregarProductos = () => {
 
 crearObjetoImagen('Guitarra clásica', `${pathImagenes}guitarra1.jpeg`, 'S/.300', 'Instrumento ..........');
 crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
+// crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}guitarra2.jpeg`, 'S/.300', 'Instrumento ..........');
 
 
 agregarProductos();

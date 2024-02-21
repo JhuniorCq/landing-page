@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Melodic Tune</title>
         <!-- CSS -->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="styles/partituras.css">
@@ -11,7 +11,8 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <!-- Bootstrap -->
         <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
-        
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
     <body>
 
@@ -35,12 +36,44 @@
 						<h1 class="titulo">Partituras</h1>
 					</div>
 
+                    <div class="contenedor-select">
+                        <div class="contenedor-input">
+                            <label for="select-instrumento" class="etiqueta">Seleccione un instrumento: </label>
+                            <select name="select-instrumento" id="select-instrumento" class="select">
+                                <option id="default-instrumento">Seleccione un instrumento</option>
+                                <option value="guitarra">Guitarra</option>
+                                <option value="bajo">Bajo</option>
+                                <option value="violin">Violín</option>
+                                <option value="piano">Piano</option>
+                                <option value="bateria">Batería</option>
+                            </select>
+                        </div>
 
+                        <div class="contenedor-input">
+                            <label for="select-cancion" class="etiqueta">Escoja una partitura: </label>
+                            <select name="select-cancion" id="select-cancion" class="select">
+                                <option id="default-cancion">Seleccione un partitura</option>
+                                <option value="opcion1">"Ultimate Battle" - Dragon Ball Super</option>
+                                <option value="opcion2">"Stairway to Heaven" - Led Zeppelin</option>
+                                <option value="opcion3">"Hotel California" - Eagles</option>
+                                <option value="opcion4">"Wonderwall" - Oasis</option>
+                                <option value="opcion5">"Blackbird" - The Beatles</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="contenedor-opcion-seleccionada">
+                        <div class="contenedor-partitura">
+                            <!-- Aquí irá el <div> para cada partitura, junto con esa misma -->
+                        </div>
+                        
+                    </div>
                 </div>
+                <!-- Acá va el Contenedor para el botón Play y Pausa -->
             </div>
         </main>
-
-        <script src=""></script>
+        
+        <script src="js/partituras.js"></script>
         <!-- Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>

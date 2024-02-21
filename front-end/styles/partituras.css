@@ -35,3 +35,74 @@ body {
     color: white;
     font-weight: bold;
 }
+
+.contenedor-select {
+    /* border: 1px solid yellow; */
+    width: 30%;
+    
+}
+
+.contenedor-input {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.etiqueta {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.select {
+    outline: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    vertical-align: middle;
+}
+
+#select-instrumento option {
+    background-color: black;
+    color: white;
+    /* vertical-align: middle; */
+}
+
+.contenedor-hojas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-hojas img {
+    width: 65%;
+    border-radius: 15px;
+}
+
+.contenedor-botones {
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.8rem);
+    box-shadow: 0 -3px 10px rgba(255, 255, 255, 0.2);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-play-pausa {
+    color: white;
+    font-size: 2.6rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-play-pausa:hover {
+    scale: 1.2;
+    filter: drop-shadow(5px 5px 10px black)
+}
