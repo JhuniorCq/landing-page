@@ -37,6 +37,8 @@ const mostrarPartituras = () => {
 }
 
 const cambiarPausarPlay = (evento) => {
+    evento.preventDefault();
+    
     const boton = evento.target;
     const elementoAnchor = boton.parentElement;
     console.log(boton, boton.parentElement);

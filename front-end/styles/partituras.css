@@ -65,7 +65,7 @@ body {
     vertical-align: middle;
 }
 
-#select-instrumento option {
+.select option {
     background-color: black;
     color: white;
     /* vertical-align: middle; */
