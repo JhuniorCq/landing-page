@@ -18,7 +18,7 @@
             <nav>
                 <ul class="funcionalidades">
                     <li class="funcion"><a href="index.html"><img src="assets/img/logo.png" alt="logo" class="logo"></a></li>
-                    <li class="funcion"><a href="afinador-calibrador.html">Afinador y Calibrador</a></li>
+                    <li class="funcion"><a href="afinador-calibrador.html">Afinador y Calibrado</a></li>
                     <li class="funcion"><a href="partituras.html">Guía de partituras</a></li>
                     <li class="funcion"><a href="chatbot.html">Melodic IA</a></li>
                     <li class="funcion"><a href="recomendaciones.html">Recomendaciones de productos</a></li>
@@ -29,95 +29,38 @@
         <main>
             <div class="contenedor">
 				<div class="contenedor-inventario">
-					<div class="contenedor-titulo">
-						<h1 class="titulo">Productos</h1>
+
+					<!-- Carrusel -->
+
+					<div id="carouselExampleInterval" class="carousel slide carrusel" data-bs-ride="carousel">
+						<div class="carousel-inner">
+						  <div class="carousel-item active" data-bs-interval="10000">
+							<img src="assets/img/promociones/promocion1.jpeg" class="d-block img-carrusel" alt="...">
+						  </div>
+						  <div class="carousel-item" data-bs-interval="2000">
+							<img src="assets/img/promociones/promocion2.jpeg" class="d-block img-carrusel" alt="...">
+						  </div>
+						  <div class="carousel-item">
+							<img src="assets/img/promociones/promocion3.jpeg" class="d-block img-carrusel" alt="...">
+						  </div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+						  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+						  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						  <span class="visually-hidden">Next</span>
+						</button>
 					</div>
 
+					<div class="contenedor-titulo">
+						<h1 class="titulo">RECOMENDACIONES DE PRODUCTOS</h1>
+					</div>
+
+					<!-- Contenedor Productos -->
 					<div class="contenedor-productos">
-						<!-- <div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div>
-						<div class="contenedor-producto">
-							<img src="" alt="producto">
-							<h3>Nombre producto</h3>
-							<p>Descripción</p>
-							<p>Precio</p>
-							<button class="btn-escoger">Escoger</button>
-						</div> -->
+
 					</div>
 				</div>
                 
@@ -126,7 +69,7 @@
         </main>
 
 
-        <script src="js/inventario.js"></script>
+        <script src="js/recomendaciones.js"></script>
         <!-- Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
