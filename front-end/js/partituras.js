@@ -18,7 +18,7 @@ const mostrarPartituras = () => {
         const div = document.createElement('div');
         div.classList.add('contenedor-hojas');
         div.innerHTML = `
-            <img src="${pathPartituras}pagina-2.jpg" alt="Partitura">
+            <img src="${pathPartituras}pagina-1.jpg" alt="Partitura">
         `;
     
         contenedorOpcionSeleccionada.append(div);
