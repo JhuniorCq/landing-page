@@ -10,7 +10,7 @@ const mostrarPartituras = () => {
     const contenedorOpcionSeleccionada = document.querySelector('.contenedor-opcion-seleccionada');
     const opcionSeleccionada = selectInstrumento.value;
     const cancionSeleccionada = selectCancion.value;
-    const pathPartituras = '../../front-end/assets/img/';
+    const pathPartituras = '../../front-end/assets/img/partituras/';
 
     contenedorOpcionSeleccionada.innerText = '';
 
