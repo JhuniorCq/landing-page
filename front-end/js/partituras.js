@@ -10,8 +10,8 @@ const mostrarPartituras = () => {
     const contenedorOpcionSeleccionada = document.querySelector('.contenedor-opcion-seleccionada');
     const opcionSeleccionada = selectInstrumento.value;
     const cancionSeleccionada = selectCancion.value;
-    const pathPartituras = '../assets/img/partituras/dragon-ball/';
-    // const a = 
+    const pathPartituras = '../../front-end/assets/img/';
+
     contenedorOpcionSeleccionada.innerText = '';
 
     if(opcionSeleccionada === 'guitarra' && cancionSeleccionada === 'opcion1') {
