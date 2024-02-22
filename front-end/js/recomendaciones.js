@@ -1,6 +1,7 @@
 
 const contenedorProductos = document.querySelector('.contenedor-productos');
 const pathImagenes = '../assets/img/instrumentos/';
+// Si está hosteado es '../assets/img/instrumentos/' -> Y si NO es '../../front-end/assets/img/instrumentos/'
 const arrayObjetosImagenes = [];
 console.log(contenedorProductos)
 

@@ -10,8 +10,8 @@ const mostrarPartituras = () => {
     const contenedorOpcionSeleccionada = document.querySelector('.contenedor-opcion-seleccionada');
     const opcionSeleccionada = selectInstrumento.value;
     const cancionSeleccionada = selectCancion.value;
-    const pathPartituras = '../../front-end/assets/img/partituras/';
-
+    const pathPartituras = '../assets/img/partituras/';
+    // Si está hosteado es '../assets/img/partituras/' -> y si no es '../../front-end/assets/img/partituras/'
     contenedorOpcionSeleccionada.innerText = '';
 
     if(opcionSeleccionada === 'guitarra' && cancionSeleccionada === 'opcion1') {
