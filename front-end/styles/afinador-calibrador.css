@@ -98,7 +98,7 @@ body {
 }
 
 .contenedor-animacion {
-    max-width: 31.6%;
+    max-width: 300px;
     background-color: rgba(250, 250, 250, 0.1);
     backdrop-filter: blur(0.4rem);
     height: 160px;
