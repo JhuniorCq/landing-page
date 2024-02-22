@@ -1,6 +1,7 @@
 const contenedorAfinador = document.querySelector('.contenedor-afinador');
 const selectInstrumento = document.getElementById('select-instrumento');
-
+const selectAfinador = document.getElementById('select-afinador')
+console.log(selectAfinador)
 const crearCuadrado = (contenedorCuadricula) => {
     for(let i=0; i<8; i++) {
         for(let j=0; j<21; j++) {
@@ -13,13 +14,12 @@ const crearCuadrado = (contenedorCuadricula) => {
 
 const mostrarAfinadorInstrumento = () => {
     const contenedorOpcionSeleccionada = document.querySelector('.contenedor-opcion-seleccionada');
-    console.log(contenedorOpcionSeleccionada)
     const opcionSeleccionada = selectInstrumento.value;
-    console.log(opcionSeleccionada);
-
+    const afinadorSeleccionado = selectAfinador.value;
+    console.log(afinadorSeleccionado)
     contenedorOpcionSeleccionada.innerText = '';
 
-    if(opcionSeleccionada === 'guitarra') {
+    if(opcionSeleccionada === 'guitarra' && afinadorSeleccionado === 'opcion1') {
         const div = document.createElement('div');
         div.classList.add('contenedor-guitarra');
         div.innerHTML = `
@@ -55,12 +55,16 @@ const mostrarAfinadorInstrumento = () => {
     }
 }
 
-const restringirOpcionDefault = () => {
-    const opcionDefault = document.getElementById('default');
+const restringirDefaultInstrumento = () => {
+    const opcionDefault = document.getElementById('default-instrumento');
     opcionDefault.disabled = true;
 }
 
+const restringirDefaultAfinador = () => {
+    const opcionDefault = document.getElementById('default-afinador');
+    opcionDefault.disabled = true;
+}
 
-
-selectInstrumento.addEventListener('change', mostrarAfinadorInstrumento);
-selectInstrumento.addEventListener('click', restringirOpcionDefault);
+selectAfinador.addEventListener('change', mostrarAfinadorInstrumento);
+selectInstrumento.addEventListener('click', restringirDefaultInstrumento);
+selectAfinador.addEventListener('click', restringirDefaultAfinador)

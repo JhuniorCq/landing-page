@@ -71,6 +71,23 @@ body {
     /* vertical-align: middle; */
 }
 
+#titulo-agregar-partitura {
+    color: rgba(250, 250, 250, 0.3);
+}
+
+.contenedor-agregar-partitura {
+    display: flex;
+    justify-content: center;
+}
+
+#agregar-partitura {
+    outline: none;
+    /* border: white; */
+    /* color: white; */
+    cursor: pointer;
+    border-radius: 7px;
+}
+
 .contenedor-hojas {
     width: 100%;
     display: flex;

@@ -3,7 +3,6 @@ const selectCancion = document.getElementById('select-cancion');
 const selects = document.querySelectorAll('.select');
 const contenedor = document.querySelector('.contenedor');
 
-console.log(selectCancion)
 const mostrarPartituras = () => {
     const contenedorOpcionSeleccionada = document.querySelector('.contenedor-opcion-seleccionada');
     const opcionSeleccionada = selectInstrumento.value;
@@ -12,7 +11,6 @@ const mostrarPartituras = () => {
     contenedorOpcionSeleccionada.innerText = '';
 
     if(opcionSeleccionada === 'guitarra' && cancionSeleccionada === 'opcion1') {
-
         const div = document.createElement('div');
         div.classList.add('contenedor-hojas');
         div.innerHTML = `

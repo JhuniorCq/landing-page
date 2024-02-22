@@ -39,7 +39,7 @@ const enviarMensaje = (evento) => {
 
     iterador++;
 
-    if(iterador === 3) {
+    if(iterador >= 3) {
         alert('Solo se permiten 2 preguntas en la versión gratuita');
         return;
     } else if(iterador === 1) {

@@ -14,7 +14,6 @@
         
     </head>
     <body>
-
         <header class="header">
             <nav>
                 <ul class="funcionalidades">
@@ -27,7 +26,6 @@
             </nav>
         </header>
 
-
         <main>
             <div class="contenedor">
                 <div class="contenedor-afinador">
@@ -36,47 +34,35 @@
 					</div>
 
                     <div class="contenedor-select">
-                        <class class="contenedor-input">
+                        <div class="contenedor-input">
                             <label for="select-instrumento" class="etiqueta">Seleccione un instrumento: </label>
-                            <select name="select-instrumento" id="select-instrumento">
-                                <option id="default">Seleccione un instrumento</option>
+                            <select name="select-instrumento" id="select-instrumento" class="select">
+                                <option id="default-instrumento">Seleccione un instrumento</option>
                                 <option value="guitarra">Guitarra</option>
                                 <option value="bajo">Bajo</option>
                                 <option value="violin">Violín</option>
                                 <option value="piano">Piano</option>
                                 <option value="bateria">Batería</option>
                             </select>
-                        </class>
+                        </div>
+
+                        <div class="contenedor-input">
+                            <label for="select-afinador" class="etiqueta">Escoja un afinador: </label>
+                            <select name="select-afinador" id="select-afinador" class="select">
+                                <option id="default-afinador">Seleccione un afinador</option>
+                                <option value="opcion1">Normal (EADGBE)</option>
+                                <option value="opcion2">Drop D (DADGBE)</option>
+                                <option value="opcion3">Drop C (CADGBE)</option>
+                                <option value="opcion4">-1 Tono (DGCFAD)</option>
+                            </select>
+                        </div>
                     </div>
 
                     <div class="contenedor-opcion-seleccionada">
                         
     
                         <div class="contenedor-guitarra">
-                            <!-- <div class="contenedor-animacion">
-                                <div class="contenedor-cuadricula">
-                                </div>
-        
-                            </div>
-
-                            <div class="contenedor-guitarra2">
-                                <div class="contenedor-botones">
-                                    <button class="boton">D</button>
-                                    <button class="boton">A</button>
-                                    <button class="boton">E</button>
-                                </div>
-            
-                                <div class="contenedor-cabezal">
-                                    <img src="assets/img/cabezal-guitarra.png" alt="Cabezal de una guitarra" class="cabezal-guitarra">
-                                </div>
-            
-                                <div class="contenedor-botones">
-                                    <button class="boton">G</button>
-                                    <button class="boton">B</button>
-                                    <button class="boton">E</button>
-                                </div>
-                            </div> -->
-                            
+                            <!-- Acà irà la guitarra por medio de JS -->
                         </div>
                     </div>
                     
