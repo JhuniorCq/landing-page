@@ -1,6 +1,6 @@
 
 const contenedorProductos = document.querySelector('.contenedor-productos');
-const pathImagenes = '../../front-end/assets/img/instrumentos/';
+const pathImagenes = '../../front-end/assets/img/';
 const arrayObjetosImagenes = [];
 console.log(contenedorProductos)
 
