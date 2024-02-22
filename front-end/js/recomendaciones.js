@@ -1,6 +1,6 @@
 
 const contenedorProductos = document.querySelector('.contenedor-productos');
-const pathImagenes = '../../front-end/assets/img/instrumentos/';
+const pathImagenes = '../assets/img/instrumentos/';
 const arrayObjetosImagenes = [];
 console.log(contenedorProductos)
 
@@ -10,7 +10,7 @@ const crearObjetoImagen = (nombreInstrumento, direccionImagen, precioInstrumento
         direccionImagen: direccionImagen,
         precioInstrumento: precioInstrumento,
     }
-    arrayObjetosImagenes.push(objetoImagen)
+    arrayObjetosImagenes.push(objetoImagen);
 }
 
 const agregarProductos = () => {
