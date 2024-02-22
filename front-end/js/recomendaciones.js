@@ -31,13 +31,13 @@ const agregarProductos = () => {
 }
 
 crearObjetoImagen('Guitarra Acústica – Ortega Student Series RST5M-3/4BK – Negro', `${pathImagenes}1.png`, 'S/. 519');
-crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}2.png`, 'S/. 300');
-crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}3.png`, 'S/. 300');
-crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}4.png`, 'S/. 300');
-crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}5.png`, 'S/. 300');
-crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}6.png`, 'S/. 300');
-crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}7.png`, 'S/. 300');
-crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}8.png`, 'S/. 300');
-crearObjetoImagen('Guitarra clásica negra', `${pathImagenes}9.png`, 'S/. 300');
+crearObjetoImagen('Bajo – TAKEY – TK-JA5-LPB – Turqueza', `${pathImagenes}2.png`, 'S/. 949');
+crearObjetoImagen('Bajo – TAKEY – BT05-HC – Natural', `${pathImagenes}3.png`, 'S/. 2619');
+crearObjetoImagen('Piano Digital CASIO – Celviano AP-270BKC2 – Negro', `${pathImagenes}4.png`, 'S/. 1470');
+crearObjetoImagen('Cabezal para Guitarra – MARSHALL – JVM1H 50th – Negro', `${pathImagenes}5.png`, 'S/. 2919');
+crearObjetoImagen('Pedal Analogico KORG – NUVIBE', `${pathImagenes}6.png`, 'S/. 1020');
+crearObjetoImagen('Guitarra Elétrica – GIBSON – LPS500TONH1 – Tobacco Burst', `${pathImagenes}7.png`, 'S/. 919');
+crearObjetoImagen('Medeli YODRUM – Batería electrónica digital', `${pathImagenes}8.png`, 'S/. 4700');
+crearObjetoImagen('Ukelele Concierto Flight DUC380 Jade', `${pathImagenes}9.png`, 'S/. 230');
 
 agregarProductos();
