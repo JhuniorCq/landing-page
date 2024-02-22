@@ -2,6 +2,9 @@ const selectInstrumento = document.getElementById('select-instrumento');
 const selectCancion = document.getElementById('select-cancion');
 const selects = document.querySelectorAll('.select');
 const contenedor = document.querySelector('.contenedor');
+const contenedorVideo = document.querySelector('.contenedor-video')
+const video = document.getElementById('video');
+let reproduciendo = false;
 
 const mostrarPartituras = () => {
     const contenedorOpcionSeleccionada = document.querySelector('.contenedor-opcion-seleccionada');
@@ -47,12 +50,23 @@ const cambiarPausarPlay = (evento) => {
         elementoAnchor.innerHTML = `
             <i class="bi bi-pause-circle-fill"></i>
         `;
+        
+        contenedorVideo.innerHTML = `
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AuGIwXpCXa8?si=6x6zRpz1jFp3b3sH&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        `;
+
+        console.log('Me reproduciré')
     } else if(elementoAnchor.classList.contains('play')) {
         elementoAnchor.classList.remove('play');
         elementoAnchor.classList.add('pausa');
         elementoAnchor.innerHTML = `
-            <i class="bi bi-play-circle-fill"></i>
+        <i class="bi bi-play-circle-fill"></i>
         `;
+
+        contenedorVideo.innerHTML = `
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/AuGIwXpCXa8?si=6x6zRpz1jFp3b3sH" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        `;
+        console.log('Me pondré en pausa')
     }
     
 }

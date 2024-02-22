@@ -123,3 +123,7 @@ body {
     scale: 1.2;
     filter: drop-shadow(5px 5px 10px black)
 }
+
+.contenedor-video {
+    display: none;
+}
